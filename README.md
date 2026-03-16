@@ -12,6 +12,8 @@ Tap a button. See your stats. No internet. No cloud. No app.
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
+<img src="screenshots/verso-hero.png" alt="Verso dashboard on a Kobo e-reader" width="420">
+
 </div>
 
 ## What It Does
@@ -36,6 +38,45 @@ Verso queries your Kobo's built-in SQLite database and generates a crisp, e-ink-
 | **Library Composition** | Visual read / reading / unread breakdown |
 | **Day-of-Week Patterns** | Which days you tend to finish books |
 | **Year in Review** | Yearly books & reading time summary |
+
+---
+
+## Screenshots
+
+<details>
+<summary><b>Library Overview & Reading Time</b></summary>
+
+<img src="screenshots/verso-overview.png" alt="Library overview and reading time stats" width="700">
+
+</details>
+
+<details>
+<summary><b>Currently Reading & Monthly Completions</b></summary>
+
+<img src="screenshots/verso-currently-reading.png" alt="Currently reading progress bars and monthly completions chart" width="700">
+
+</details>
+
+<details>
+<summary><b>Most Time Invested & Top Authors</b></summary>
+
+<img src="screenshots/verso-top-books-authors.png" alt="Top books by reading time and top authors table" width="700">
+
+</details>
+
+<details>
+<summary><b>Recently Finished & Annotations</b></summary>
+
+<img src="screenshots/verso-recently-finished.png" alt="Recently finished books and annotation stats" width="700">
+
+</details>
+
+<details>
+<summary><b>Library Composition & Year in Review</b></summary>
+
+<img src="screenshots/verso-library-yearly.png" alt="Library composition bar, day-of-week patterns, and yearly summary" width="700">
+
+</details>
 
 ---
 
