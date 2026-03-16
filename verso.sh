@@ -254,7 +254,7 @@ cat >> "$TMP" << EOF
 <div class="tagline">Your Reading Chronicle</div>
 <div class="updated">$NOW</div>
 </div>
-<button class="exit-btn" onclick="if(!window.close())location.href='about:blank'">Exit Dashboard</button>
+<button class="exit-btn" onclick="window.close();history.back();location.href='about:blank'">Close</button>
 EOF
 
 # ── OVERVIEW CARDS ────────────────────────────────
@@ -532,7 +532,7 @@ rm -f "${TMPDATA}_yearly"
 
 # ── FOOTER ────────────────────────────────────────
 cat >> "$TMP" << 'FOOTEOF'
-<button class="exit-btn" onclick="if(!window.close())location.href='about:blank'">Exit Dashboard</button>
+<button class="exit-btn" onclick="window.close();history.back();location.href='about:blank'">Close</button>
 <div class="footer">
 Verso
 <div class="footer-sub">reading stats for kobo</div>
