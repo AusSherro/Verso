@@ -1,0 +1,7 @@
+# Force LF line endings for all text files (Kobo runs Linux)
+*.sh text eol=lf
+*.nm text eol=lf
+*.md text eol=lf
+
+# Bundled ARM binary
+sqlite3 binary
